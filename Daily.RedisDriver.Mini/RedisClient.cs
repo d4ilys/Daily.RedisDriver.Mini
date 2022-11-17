@@ -35,7 +35,7 @@ namespace Daily.RedisDriver.Mini
             return result;
         }
 
-        public string Del(string key) => Call("DEL",key);
+  
 
     }
 }

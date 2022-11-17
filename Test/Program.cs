@@ -12,7 +12,7 @@ namespace Test
 
         static void Main(string[] args)
         {
-            #region MyRegion
+            #region 对象池测试
 
             //var objectPool = new ObjectPool<Person>(3, () => new Person() { Id = 1 });
             //Parallel.For(0, 1000, i =>
@@ -23,6 +23,18 @@ namespace Test
             //});
 
             #endregion
+
+            #region 普通测试"
+            //Hash
+            {
+                redis.HSet("HsetTest", "daily", "545559292");
+                var res = redis.HGet("HsetTest", "daily");
+                Console.WriteLine(res);
+            }
+
+            #endregion
+
+            #region 多线程测试
 
             ////多线程写数据
             //Parallel.For(0, 1000, i =>
@@ -44,6 +56,8 @@ namespace Test
             //    var res = redis.Del($"mini-{i}");
             //    Console.WriteLine(res);
             //});
+
+            #endregion
         }
     }
 

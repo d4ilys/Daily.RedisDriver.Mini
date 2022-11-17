@@ -1,0 +1,32 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33103.184
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Daily.RedisDriver.Mini", "Daily.RedisDriver.Mini\Daily.RedisDriver.Mini.csproj", "{ABB7104B-8AA5-492B-A4F4-F69F59CC561E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{BF0625A6-C027-4C2E-8B36-A96B4F71C78C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ABB7104B-8AA5-492B-A4F4-F69F59CC561E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABB7104B-8AA5-492B-A4F4-F69F59CC561E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABB7104B-8AA5-492B-A4F4-F69F59CC561E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABB7104B-8AA5-492B-A4F4-F69F59CC561E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF0625A6-C027-4C2E-8B36-A96B4F71C78C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF0625A6-C027-4C2E-8B36-A96B4F71C78C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF0625A6-C027-4C2E-8B36-A96B4F71C78C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF0625A6-C027-4C2E-8B36-A96B4F71C78C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {91DE8708-549D-44EE-9604-5BB4170662B6}
+	EndGlobalSection
+EndGlobal
+
